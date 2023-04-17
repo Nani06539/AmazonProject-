@@ -31,3 +31,4 @@ Feature: Searching items on Amazon
     When  User removes the LG 24UD58-B 24-Inch 4k Monitor from the cart
     Then  User should not see the LG 24UD58-B 24-Inch 4k Monitor in the cart
 
+     Then what you do is important 
