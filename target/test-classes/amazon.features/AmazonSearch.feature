@@ -7,7 +7,7 @@ Feature: Searching items on Amazon
   Scenario: TC1- Searching LG 24UD58-B 24-Inch 4k Monitor
 
     When   User search for LG 24UD58-B 24-Inch 4k Monitor
-    And    User chooses LG 24UD58-B 24-Inch 4k Monitor
+    And    User Chooses LG 24UD58-B 24-Inch 4k Monitor
     Then   User Should be able to add it to cart
 
 
@@ -31,4 +31,3 @@ Feature: Searching items on Amazon
     When  User removes the LG 24UD58-B 24-Inch 4k Monitor from the cart
     Then  User should not see the LG 24UD58-B 24-Inch 4k Monitor in the cart
 
-     Then what you do is important 
